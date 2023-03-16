@@ -4,6 +4,14 @@ body {
 
 /* ul li {
     list-style-type: none;
+}*/
+
+
+
+.bg-light-gray {
+    background-color: lightgray;
 }
 
-
+#small-logo {
+    max-width: 45px;
+}
