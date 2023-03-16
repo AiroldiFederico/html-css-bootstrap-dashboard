@@ -32,7 +32,7 @@
         <header>
 
             <!-- NAVBAR -->
-            <nav class="navbar fixed-top">
+            <nav class="navbar sticked-top">
                 <div class="container-fluid d-flex justify-content-between">
 
                     <!-- Logo -->
@@ -48,6 +48,7 @@
 
                     <!-- Search bar -->
                     <form class="flex-fill" role="search">
+                        
                         <input class="form-control  bg-light-gray" type="search" placeholder=" Prova a cercare: Lezioni di Lavarel" aria-label="Search">
                     </form>
 
@@ -64,10 +65,41 @@
 
         </header>
 
-        <main>
+        <main class="col-12">
 
             <!-- SIDEBARE -->
-            <section>
+            <section class="col-2 col-md-1 col-lg-2 h-100 bg-darkblue fw-normal" style="background-image: url(./asset/img/sidebar-bg.png);">
+
+                <div class="d-flex flex-column justify-content-between align-items-center py-4 text-white fs-5 h-100">
+                    
+                    <!-- top sidebar -->
+                    <div class="d-flex flex-column">
+                        <div class="hover1 mb-2 px-1 py-2">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="d-none d-lg-inline-block ms-2">Home</span>
+                        </div>
+    
+                        <div class="hover1 mb-2 px-1 py-2">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span class="d-none d-lg-inline-block ms-2">Stats</span>
+                        </div>
+    
+                        <div class="hover1 px-1 py-2">
+                            <i class="fa-solid fa-signal"></i>
+                            <span class="d-none d-lg-inline-block ms-2">Signals</span>
+                        </div>
+                    </div>
+    
+    
+    
+                    <!-- bottom sidebar  -->
+                    <div class="hover1 px-1 py-2">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="d-none d-lg-inline-block ms-2">Admin</span>
+                    </div>
+    
+    
+                </div>
 
             </section>
 
