@@ -27,3 +27,15 @@ main {
 .hover1:hover {
     background-color: rgba(255, 255, 255, 0.349);
 }
+
+ul li {
+    list-style-type: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropstart .dropdown-toggle::before {
+    display: none;
+}
