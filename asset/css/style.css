@@ -48,3 +48,15 @@ ul li {
     background-color: rgba(0, 0, 0, 0.207);
 }
 
+.i-code {
+color: rgb(255, 255, 255);
+background-color: orange;
+border-radius: 50%;
+display: inline-block;
+text-align: center;
+justify-self: center;
+line-height: 35px !important;
+height: 35px;
+aspect-ratio: 1;
+}
+
