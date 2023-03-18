@@ -164,8 +164,8 @@
                                     <form action="" class="px-2">
 
                                         <!-- Nome Cognome -->
-                                        <div class="d-flex col-12 gap-3 mb-3">
-                                            <div class="col-6">
+                                        <div class="d-flex col-12 gap-2  mb-3">
+                                            <div class="col-6 align-self-start">
                                                 <label for="FormControlInput" class="form-label">Nome</label>
                                                 <input type="text" class="form-control" id="FormControlInput">
                                             </div>
@@ -177,8 +177,8 @@
                                         </div>
 
                                         <!-- Email Password -->
-                                        <div class="d-flex col-12 gap-3 mb-3">
-                                            <div class="col-6 d-flex flex-wrap">
+                                        <div class="d-flex col-12 gap-2  mb-3">
+                                            <div class="col-6 d-flex flex-wrap align-self-start">
                                                 <label for="basic-addon" class="form-label">Email</label>
                                                 <div class=" input-group">
                                                     <span class="input-group-text" id="basic-addon">@</span>
@@ -191,6 +191,77 @@
                                                 <input type="password" class="form-control" id="exampleInputPassword1">
                                             </div>
                                         </div>
+
+                                        <!-- Email Password -->
+                                        <div class="d-flex col-12 gap-2  mb-3">
+                                            <div class="col-6 d-flex flex-wrap align-self-start">
+                                                <label for="basic-addon" class="form-label">Email</label>
+                                                <div class=" input-group">
+                                                    <span class="input-group-text" id="basic-addon">@</span>
+                                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon">   
+                                                </div>                                              
+                                            </div>
+
+                                            <div class="col-6">
+                                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                        </div>
+
+                                        <!-- Indirizzo -->
+                                        <div class="d-flex col-12 mb-3">
+                                            <div class="col-12">
+                                                <label for="exampleInputPassword1" class="form-label">Indirizzo</label>
+                                                <input type="text" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                        </div>
+
+                                        <!-- Città Stato Cap -->
+                                        <div class="d-flex col-12 gap-2 mb-3 pe-2">
+                                            <div class="col-6 align-self-start">
+                                                <label for="FormControlInput" class="form-label">Città</label>
+                                                <input type="text" class="form-control" id="FormControlInput">
+                                            </div>
+
+                                            <div class="col-3">
+                                                <label for="FormControlInput" class="form-label">Stato</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Scegli...</option>
+                                                    <option value="1">Italia</option>
+                                                    <option value="2">Francia</option>
+                                                    <option value="3">Spagna</option>
+                                                    <option value="1">Germania</option>
+                                                    <option value="2">Svizzera</option>
+                                                    <option value="3">Belgio</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-3">
+                                                <label for="FormControlInput" class="form-label">Cap</label>
+                                                <input type="text" class="form-control" id="FormControlInput">
+                                            </div>
+                                        </div>   
+                                        
+                                        <!-- Scegli foto -->
+                                        <div class="mb-3">
+                                            <label for="formFile" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+
+                                        <!-- check box -->
+                                        <div class="mb-3 form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Seleziona per proseguire
+                                            </label>
+                                        </div>
+
+                                        <!-- Buttons -->
+                                        <div class="">
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="submit" class="btn btn-warning">Svuota</button>
+                                        </div>
+
                                     </form>
                                 </div>
                             </div>
