@@ -60,10 +60,12 @@ height: 35px;
 aspect-ratio: 1;
 }
 
-.h-cards {
-    height: 84%;
-}
+/* .h-cards {
+    max-height: 650px;
+} */
 
 li {
     margin-left: 0;
 }
+
+
