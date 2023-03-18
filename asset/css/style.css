@@ -63,3 +63,7 @@ aspect-ratio: 1;
 .h-cards {
     height: 84%;
 }
+
+li {
+    margin-left: 0;
+}
